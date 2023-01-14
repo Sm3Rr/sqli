@@ -1,8 +1,10 @@
 # DDOS / Attack API
 Working DDOS API For [IP Booter](https://nightmarestresser.net/) / [IP Stresser](https://nightmarestresser.net/) With Layer 4 & Layer 7 Functions Supporting Stopping & Sendind Of Up To 150 Concurrent Floods With A Simple HTTP GET Request, Working In 2023.
 
-Introduction:
+
+Introduction & API Documentation:
 API is useful if you wish to implement it into your own software or create your own ip booter / ip stresser, allowing you to launch/stop attacks with a simple HTTP GET request, Only thing needed is for you to register and get a plan that includes API access to get your API KEY on [nightmarestresser.net](https://nightmarestresser.net/)
+
 
 Send Attack:
 https://api.nightmarestresser.net/?key=[KEY]&method=[METHOD]&host=[HOST]&port=[PORT]&time=[TIME]
