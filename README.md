@@ -10,7 +10,6 @@ https://api.nightmarestresser.net/?key=[KEY]&method=[METHOD]&host=[HOST]&port=[P
 
 Stop Attack:
 https://api.nightmarestresser.net/?key=[KEY]&method=STOP&host=[HOST]&port=[PORT]&time=[TIME]
-
 Note: Host, port and time must match what was sent initially .
 
 
