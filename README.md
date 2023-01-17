@@ -9,7 +9,7 @@ Working DDOS API For [IP Booter](https://nightmarestresser.net/) / [IP Stresser]
 
 ## Introduction & API Documentation
 
-API is useful if you wish to implement it into your own software or create your own ip booter / ip stresser, allowing you to launch/stop attacks with a simple HTTP GET request, Only thing needed is for you to register and get a plan that includes API access to get your API KEY on [nightmarestresser.net](https://nightmarestresser.net/)
+API is useful if you wish to implement it into your own software or create your own ip booter / ip stresser, allowing you to launch/stop attacks with a simple HTTP GET request, make sure to replace [KEY] with your key and same with method host port and time, time is counted in seconds  Only thing needed is for you to register and get a plan that includes API access to get your API KEY on [nightmarestresser.net](https://nightmarestresser.net/)
 
 
 Send Attack:
