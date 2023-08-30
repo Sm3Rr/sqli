@@ -13,8 +13,8 @@ Version 1.0.0 (sqli bug checker)
 │         [2] Make sure it have parameter │
 │         [3] Now u Can Find Out !        │
 ├─────────────────────────────────────────┤
-│ Link: https://github.com/Sm3Rr/sqli        │
-└─────────────────────────────────────┘''')
+│ Link: https://github.com/Sm3Rr/sqli     | 
+└───────────────────────────────────┘''')
 import requests
 
 def check_changes(url):
