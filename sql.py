@@ -6,7 +6,7 @@ print ('''
 	       |___________|/
 >----------------------------------------->
 Version 1.0.0 (sqli bug checker)
-                        C0d3d by SecurityFucker
+             C0d3d by SecurityFucker
 ├─────────────────────────────────────────┤
 │                How To Use:              │
 │         [1] First Enter Target Url      │
