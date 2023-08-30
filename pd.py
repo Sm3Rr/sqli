@@ -1,29 +1,38 @@
-import requests
 
-def check_changes(url):
-    original_url = url
-    modified_url = url + "'"
+def check_url_changes(url):
+    import requests
+    import re
+
+    initial_response = requests.get(url)
+    initial_data = initial_response.text
     
-    original_response = requests.get(original_url)
-    modified_response = requests.get(modified_url)
+    match = re.search(r'\'\b', url)
+    new_url = url[:match.start()] + "'" + url[match.end():]
     
-    if original_response.text == modified_response.text:
-        print("SITE DONT HAVE ANY BUG !")
+    changed_response = requests.get(new_url)
+    changed_data = changed_response.text
+    
+    if initial_data == changed_data:
+        return "no"
     else:
-        print("SITE HAVE SQLI BUG !")
+        return "yes"
 
 
-url = input(" < EnTeR ThE SitE UrL ~> ")
-check_changes(url)
+def parse_url(url):
+    import re
+    
+    match = re.search(r'\'\b', url)
+    changed_url = url[:match.start()] + "'" + url[match.end():]
+    base_url = changed_url.split("'")[0]
+    complement = changed_url.split("'")[1]
+    
+    return base_url, complement
+
 
 while True:
-    link = input(" < EnTeR ThE SitE UrL ~> ")
-    modified_link = link + "'"
-    
-    # ارسال درخواست به سایت خاص با استفاده از modified_link
-    # بررسی تغییرات در سایت و مقایسه با قبلی
-    
-    if i:
-        print("SITE DONT HAVE ANY BUG !")
+    user_input = input("Enter the website URL: ")
+    base_url, complement = parse_url(user_input)
+    if check_url_changes(base_url + complement) == "yes":
+        print("Yes")
     else:
-        print("SITE HAVE SQLI BUG !")
+        print("No")
