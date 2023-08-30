@@ -1,6 +1,6 @@
 <div align=center>
   
-# DDOS / Attack API
+# SQLI BUG CHECKER
 ```sh
    [Layer 7]
 
