@@ -1,20 +1,20 @@
 print ('''
-	           //////////////
-	           | SqLi  BuG |/
-	           |-----------|/
-	           |  checker  |/ 
-	           |___________|/
->--------------------------------------------->
+	          //////////////
+	          | SqLi  BuG |/
+	          |-----------|/
+	          |  checker  |/ 
+	          |___________|/
+>------------------------------------------------->
 Version 1.0.0 (sqli bug checker)
                         C0d3d by SecurityFucker
-├──────────────────────────────────────┤
-│                How To Use:                  │
-│          [1] First Enter Target Url         │
-│          [2] Make sure it have parameter    │
-│          [3] Now u Can Find Out !           │
-├──────────────────────────────────────┤
-│ Link: https://github.com/Sm3Rr/sqli         │
-└──────────────────────────────────────┘''')
+├─────────────────────────────────────────┤
+│                How To Use:              │
+│         [1] First Enter Target Url      │
+│         [2] Make sure it have parameter │
+│         [3] Now u Can Find Out !        │
+├─────────────────────────────────────────┤
+│ Link: https://github.com/Sm3Rr/sqli        │
+└─────────────────────────────────────┘''')
 import requests
 
 def check_changes(url):
